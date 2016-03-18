@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="check-version.c" />
+    <ClCompile Include="des.c" />
+    <ClCompile Include="md4.c" />
+    <ClCompile Include="smbencrypt.c" />
+    <ClCompile Include="smbutil.c" />
+    <ClCompile Include="test_ntlm.c" />
+    <ClCompile Include="strverscmp.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="check-version.h" />
+    <ClInclude Include="des.h" />
+    <ClInclude Include="md4.h" />
+    <ClInclude Include="ntlm.h" />
+    <ClInclude Include="byteswap.h" />
+  </ItemGroup>
+</Project>
